@@ -1,6 +1,6 @@
 
 2a. I tried to make cases that tested each of the sets(explained in part b) that I identified. I made several cases that checked the boundaries for cases with IP address or port ranges and also cases with addresses or port within the ranges. However, I did notice that one of my test cases actually does not return the expected result, but I ran out of time before I could fully investigate the issue.
-
+ 
 2b. My design was primarily concerned with how to store the rules in a way where I could quickly check if the input from accept_packet is accepted by the rules. My solution was to use HashMaps as searching in a HashMap is constant time.
 
 I identified and created 4 sets that were possible due to potential ranges given for IP Addresses and ports. 1. direction, protocol, port, and IP address are fixed values 2. direction, protocol, port are fixed values, IP address is a range 3. direction, protocol, IP address are fixed values, port is a range 4. direction, protocol are fixed values, port and IP address are a range.
