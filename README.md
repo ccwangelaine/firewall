@@ -11,6 +11,6 @@ I needed to create 4 sets as generating the hash key was different for each scen
 
 To address comparing IP addresses and checking within a range of IP addresses, I created a genAddressNumber method. Because each integer in the IP address was in the range 0 to 255, I would bit shift each of the integers by multiples of 8.
 
-2c. I would have liked more time to figure out what the bug is and better organize the FireWall Constructor. Code can also be cleaned up and naming methods can be improved/kept consistent.
+2c. I would have liked more time to figure out what the bug is and better organize the FireWall Constructor. Code can also be cleaned up and naming methods can be improved/kept consistent. I also would like to think of and create more edge cases and organize my test cases into possibly JUnit test suites.
 
 3. My ranking for the teams starting from most interested is platform, policy, data.
